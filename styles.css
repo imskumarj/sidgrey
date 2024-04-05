@@ -1,0 +1,236 @@
+@font-face {
+  font-family: Blanka;
+  src: url('C:/Users/Admin/OneDrive/Documents/Novel/Website/Blanka.otf');
+  font-family: Zen Dots;
+  src: url('C:/Users/Admin/OneDrive/Documents/Novel/Website/ZenDots-Regular.otf');
+}
+
+body {
+    background-image: url('C:/Users/Admin/OneDrive/Documents/Novel/Website/starry-nights.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-colour: black;
+    cursor: url('C:/Users/Admin/OneDrive/Documents/Novel/Website/yellow-dot.png'), auto;
+    color: #FFD700;
+    font-size: 100%;
+}
+
+body, a {
+    cursor: url('C:/Users/Admin/OneDrive/Documents/Novel/Website/yellow-dot.png'), auto;
+}
+
+@keyframes rollIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 3s ease;
+}
+
+.fade-in.visible {
+    opacity: 5;
+}
+
+body {
+    animation: rollIn 3s ease forwards;
+}
+
+.body {
+    position: relative;
+}
+
+.icons {
+  margin-top: 10px; 
+  margin-bottom: 30px; 
+}
+
+.icons a {
+    padding-right: 10px; /* Adjust as needed */
+}
+
+.icons a + a {
+    margin-left: 10px; /* Adjust as needed */
+}
+
+.icons a {
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.icon {
+    transition: transform 0.2s; /* Smooth animation */
+}
+
+.icon:hover {
+    transform: scale(2); /* Zoom in by 20% */
+}
+
+.icon {
+    /* Other styles for your icons */
+    position: relative;
+}
+
+.icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust color and transparency */
+    border-radius: 50%;
+    transition: width 0.3s, height 0.3s;
+}
+
+.icon:active::before {
+    width: 100px; /* Adjust burst size */
+    height: 100px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Blanka', sans-serif;
+    line-height: 1
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+p {
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Adjust spacing between books */
+}
+
+.book {
+    width: 450px;
+    height: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 240, 31, 1); /* Neon green glow */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: relative;
+}
+
+.book-details {
+    position: absolute;
+    bottom: 0; /* Position at the bottom of the container */
+    left: 0; /* Align to the left edge */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    padding: 20px;
+    width: 100%; /* Take full width of the container */
+    box-sizing: border-box; /* Include padding in width calculation */
+    transition: opacity 0.3s ease; /* Optional: Smooth fade-in effect */
+    margin-bottom: 15px; 
+}
+
+.book:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8); /* Bigger yellow shadow on hover */
+}
+
+.book:hover .book-details {
+    opacity: 1; /* Show details on hover */
+}
+
+.book h2 {
+    font-family: 'Blanka', sans-serif;
+    margin: 0; /* Remove default margins */
+}
+
+.book p {
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+.book p {
+     margin-top: 5px;
+     margin-bottom: 25px;
+}
+
+.book a {
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    opacity: 1; /* Slightly reduce opacity */
+}
+
+.custom-button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFA500;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #008CBA; /* Darker blue on hover */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    font-family: 'Zen Dots', sans-serif;
+    margin-bottom: 30px;
+}

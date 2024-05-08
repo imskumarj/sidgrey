@@ -233,5 +233,12 @@ a {
 footer {
     font-family: 'Zen Dots', sans-serif;
     margin-bottom: 30px;
-    color: yellow;
+}
+
+#page-footer a {
+     color: white;
+}
+
+#page-footer a:hover {
+     color: yellow;
 }

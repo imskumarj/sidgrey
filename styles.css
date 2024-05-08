@@ -238,3 +238,7 @@ footer {
 #page-footer a:hover {
      color: yellow;
 }
+
+#page-footer a {
+     color: white;
+}

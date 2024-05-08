@@ -141,7 +141,15 @@ p {
 header, footer {
     text-align: center;
     padding: 20px;
-  color: yellow;
+}
+
+header p,
+footer p {
+    color: yellow; /* Set color to yellow */
+}
+
+main p {
+    color: white; /* Set color to white */
 }
 
 .book-grid {

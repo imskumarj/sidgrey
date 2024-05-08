@@ -243,3 +243,8 @@ footer p a {
 footer p a:hover {
   color: #FFD700;
 }
+
+.container {
+    margin: 0 auto; 
+    max-width: 1200px; 
+}

@@ -141,18 +141,7 @@ p {
 header, footer {
     text-align: center;
     padding: 20px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
-
-header p,
-footer p {
-    color: #FFD700;
-}
-
-main p {
-    color: white;
+  color: yellow;
 }
 
 .book-grid {
@@ -234,7 +223,7 @@ main p {
 }
 
 .custom-button:hover {
-    background-color: #008CBA; 
+    background-color: #008CBA; /* Darker blue on hover */
 }
 
 a {
@@ -247,10 +236,6 @@ footer {
     margin-bottom: 30px;
 }
 
-footer p a {
-    color: white;
-}
-
-footer p a:hover {
-    color: #FFD700; 
+#page-footer a:hover {
+     color: white;
 }

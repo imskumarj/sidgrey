@@ -6,18 +6,18 @@
 }
 
 body {
-    background-image: url('C:/Users/Admin/OneDrive/Documents/Novel/Website/starry-nights.jpg');
+    background-image: url('starry-nights.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-colour: black;
-    cursor: url('C:/Users/Admin/OneDrive/Documents/Novel/Website/yellow-dot.png'), auto;
+    cursor: url('yellow-dot.png'), auto;
     color: #FFD700;
     font-size: 100%;
 }
 
 body, a {
-    cursor: url('C:/Users/Admin/OneDrive/Documents/Novel/Website/yellow-dot.png'), auto;
+    cursor: url('yellow-dot.png'), auto;
 }
 
 @keyframes rollIn {

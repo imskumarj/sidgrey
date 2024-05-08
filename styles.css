@@ -141,6 +141,7 @@ p {
 header, footer {
     text-align: center;
     padding: 20px;
+    color: white;
 }
 
 .book-grid {
@@ -233,10 +234,6 @@ a {
 footer {
     font-family: 'Zen Dots', sans-serif;
     margin-bottom: 30px;
-}
-
-#page-footer a {
-     color: white;
 }
 
 #page-footer a:hover {

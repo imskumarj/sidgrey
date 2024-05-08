@@ -141,7 +141,24 @@ p {
 header, footer {
     text-align: center;
     padding: 20px;
-  color: yellow;
+  color: #FFD700;
+}
+
+header p,
+footer p {
+    color: #FFD700; 
+}
+
+footer p a {
+    color: white; 
+}
+
+footer p a:hover {
+    color: #FFD700; 
+}
+
+main p {
+    color: white; 
 }
 
 .book-grid {

@@ -145,7 +145,7 @@ header, footer {
 
 header p,
 footer p {
-    color: yellow; /* Set color to yellow */
+    color: #FFD700; /* Set color to yellow */
 }
 
 main p {

@@ -243,12 +243,3 @@ footer p a {
 footer p a:hover {
   color: #FFD700;
 }
-
-body {
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
-}
-
-body::-webkit-scrollbar {
-    display: none; 
-}

@@ -141,6 +141,7 @@ p {
 header, footer {
     text-align: center;
     padding: 20px;
+  color: yellow;
 }
 
 .book-grid {
@@ -236,9 +237,5 @@ footer {
 }
 
 #page-footer a:hover {
-     color: yellow;
-}
-
-#page-footer a {
      color: white;
 }

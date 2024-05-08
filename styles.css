@@ -145,11 +145,11 @@ header, footer {
 
 header p,
 footer p {
-    color: #FFD700; /* Set color to yellow */
+    color: #FFD700;
 }
 
 main p {
-    color: white; /* Set color to white */
+    color: white;
 }
 
 .book-grid {
@@ -244,10 +244,10 @@ footer {
     margin-bottom: 30px;
 }
 
-footer a {
+footer p a {
     color: white; /* Set initial color to white */
 }
 
-footer a:hover {
+footer p a:hover {
     color: #FFD700; /* Change color to #FFD700 on hover */
 }

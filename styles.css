@@ -226,15 +226,11 @@ header, footer {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 footer {
     font-family: 'Zen Dots', sans-serif;
     margin-bottom: 30px;
-}
-
-.a footer {
-  color: yellow;
 }
